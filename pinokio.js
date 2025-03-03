@@ -57,37 +57,39 @@ module.exports = {
       } else {
         return [{
           icon: "fa-solid fa-power-off",
-          text: "<div><strong>Fast</strong><br><div>fast but lower quality</div></div>",
+          text: "<div>Text-to-Video</div>",
           href: "start.js",
           params: {
             profile: 4,
-            fast: true
+            mode: "--t2v"
           }
         }, {
           icon: "fa-solid fa-power-off",
-          text: "<div><strong>Original</strong><br><div>slow but high quality</div></div>",
+          text: "<div>Image-to-Video</div>",
           href: "start.js",
           params: {
-            profile: 4
+            profile: 4,
+            mode: "--i2v"
           }
         }, {
           icon: "fa-solid fa-power-off",
           text: "advanced",
           menu: [{
             icon: "fa-solid fa-power-off",
-            text: "<div><strong>Fast Compiled</strong><br><div>fast & compiled. faster than 'Fast', but might not work on all platforms</div></div>",
+            text: "<div><strong>Text-to-Video Compiled</strong><br><div>text-to-video but faster, but might not work on all platforms</div></div>",
             href: "start.js",
             params: {
               profile: 4,
-              fast: true,
+              mode: "--t2v",
               compile: true
             }
           }, {
             icon: "fa-solid fa-power-off",
-            text: "<div><strong>Original Compiled</strong><br><div>origina & compiled. faster than 'Original', but might now work on all platforms.</div></div>",
+            text: "<div><strong>Image-to-Video Compiled</strong><br><div>image-to-video but faster, but might now work on all platforms.</div></div>",
             href: "start.js",
             params: {
               profile: 4,
+              mode: "--i2v",
               compile: true
             }
           }]
