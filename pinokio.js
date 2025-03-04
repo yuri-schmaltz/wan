@@ -76,22 +76,48 @@ module.exports = {
           text: "advanced",
           menu: [{
             icon: "fa-solid fa-power-off",
-            text: "<div><strong>Text-to-Video Compiled</strong><br><div>text-to-video but faster, but might not work on all platforms</div></div>",
-            href: "start.js",
-            params: {
-              profile: 4,
-              mode: "--t2v",
-              compile: true
-            }
+            text: "Compiled (Faster but may not work)",
+            menu: [{
+              icon: "fa-solid fa-power-off",
+              text: "Text-to-Video",
+              href: "start.js",
+              params: {
+                profile: 4,
+                mode: "--t2v",
+                compile: true
+              }
+            }, {
+              icon: "fa-solid fa-power-off",
+              text: "Image-to-Video",
+              href: "start.js",
+              params: {
+                profile: 4,
+                mode: "--i2v",
+                compile: true
+              }
+            }]
           }, {
             icon: "fa-solid fa-power-off",
-            text: "<div><strong>Image-to-Video Compiled</strong><br><div>image-to-video but faster, but might now work on all platforms.</div></div>",
-            href: "start.js",
-            params: {
-              profile: 4,
-              mode: "--i2v",
-              compile: true
-            }
+            text: "SDPA (Try if you get blank videos)",
+            menu: [{
+              icon: "fa-solid fa-power-off",
+              text: "Text-to-Video",
+              href: "start.js",
+              params: {
+                profile: 4,
+                mode: "--t2v",
+                attention: "--attention sdpa",
+              }
+            }, {
+              icon: "fa-solid fa-power-off",
+              text: "Image-to-Video",
+              href: "start.js",
+              params: {
+                profile: 4,
+                mode: "--i2v",
+                attention: "--attention sdpa",
+              }
+            }]
           }]
         }, {
           icon: "fa-regular fa-folder-open",
