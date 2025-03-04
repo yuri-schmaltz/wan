@@ -63,8 +63,8 @@ module.exports = {
           //"uv pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 {{args && args.xformers ? 'xformers' : ''}}  --index-url https://download.pytorch.org/whl/cu121 --force-reinstall",
           "uv pip install torch==2.6.0 torchvision torchaudio {{args && args.xformers ? 'xformers' : ''}}  --index-url https://download.pytorch.org/whl/cu124 --force-reinstall",
           //"uv pip install git+https://github.com/Dao-AILab/flash-attention.git@v2.6.3"
-          "uv pip install git+https://github.com/thu-ml/SageAttention",
-          //"uv pip install sageattention==1.0.6",
+          //"uv pip install git+https://github.com/thu-ml/SageAttention",
+          "uv pip install sageattention==1.0.6",
           "uv pip install triton",
           //"uv pip install https://download.pytorch.org/whl/cu121/xformers-0.0.27.post2-cp310-cp310-manylinux2014_x86_64.whl"
         ]
