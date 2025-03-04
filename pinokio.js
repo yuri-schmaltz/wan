@@ -73,7 +73,7 @@ module.exports = {
           }
         }, {
           icon: "fa-solid fa-power-off",
-          text: "advanced",
+          text: "Advanced",
           menu: [{
             icon: "fa-solid fa-power-off",
             text: "Compiled (Faster but may not work)",
