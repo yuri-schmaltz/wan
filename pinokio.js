@@ -138,7 +138,7 @@ module.exports = {
             href: "mix/Remade-AI/download.json",
             params: {
               uri: "https://huggingface.co/Remade-AI/Squish/resolve/main/squish_18.safetensors",
-              path: "{{path.resolve(cwd, 'app/loras_i2v')}}"
+              path: "../../app/loras_i2v"
             }
           }, {
             icon: "fa-solid fa-compact-disc",
@@ -146,7 +146,7 @@ module.exports = {
             href: "mix/Remade-AI/download.json",
             params: {
               uri: "https://huggingface.co/Remade-AI/Rotate/resolve/main/rotate_20_epochs.safetensors",
-              path: "{{path.resolve(cwd, 'app/loras_i2v')}}"
+              path: "../../app/loras_i2v"
             }
           }, {
             icon: "fa-solid fa-compact-disc",
@@ -154,7 +154,7 @@ module.exports = {
             href: "mix/Remade-AI/download.json",
             params: {
               uri: "https://huggingface.co/Remade-AI/Inflate/resolve/main/inflate_20_epochs.safetensors",
-              path: "{{path.resolve(cwd, 'app/loras_i2v')}}"
+              path: "../../app/loras_i2v"
             }
           }, {
             icon: "fa-solid fa-compact-disc",
@@ -162,7 +162,7 @@ module.exports = {
             href: "mix/Remade-AI/download.json",
             params: {
               uri: "https://huggingface.co/Remade-AI/Cakeify/resolve/main/cakeify_16_epochs.safetensors",
-              path: "{{path.resolve(cwd, 'app/loras_i2v')}}"
+              path: "../../app/loras_i2v"
             }
           }, {
             icon: "fa-solid fa-compact-disc",
@@ -170,7 +170,7 @@ module.exports = {
             href: "mix/Remade-AI/download.json",
             params: {
               uri: "https://huggingface.co/Remade-AI/Deflate/resolve/main/deflate_20_epochs.safetensors",
-              path: "{{path.resolve(cwd, 'app/loras_i2v')}}"
+              path: "../../app/loras_i2v"
             }
           }, {
             icon: "fa-solid fa-compact-disc",
@@ -178,7 +178,7 @@ module.exports = {
             href: "mix/Remade-AI/download.json",
             params: {
               uri: "https://huggingface.co/Remade-AI/Crush/resolve/main/crush_20_epochs.safetensors",
-              path: "{{path.resolve(cwd, 'app/loras_i2v')}}"
+              path: "../../app/loras_i2v"
             }
           }, {
             icon: "fa-solid fa-compact-disc",
@@ -186,7 +186,7 @@ module.exports = {
             href: "mix/Remade-AI/download.json",
             params: {
               uri: "https://huggingface.co/Remade-AI/Gun-Shooting/resolve/main/gun_20_epochs.safetensors",
-              path: "{{path.resolve(cwd, 'app/loras_i2v')}}"
+              path: "../../app/loras_i2v"
             }
           }, {
             icon: "fa-solid fa-compact-disc",
@@ -194,7 +194,7 @@ module.exports = {
             href: "mix/Remade-AI/download.json",
             params: {
               uri: "https://huggingface.co/Remade-AI/Muscle/resolve/main/muscle_18_epochs.safetensors",
-              path: "{{path.resolve(cwd, 'app/loras_i2v')}}"
+              path: "../../app/loras_i2v"
             }
           }]
         }, {
