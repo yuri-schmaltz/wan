@@ -28,5 +28,18 @@
     "https://x.com/deepbeepmeep/status/1896681152024563765",
     "https://x.com/cocktailpeanut/status/1896669569626099988",
     "https://x.com/deepbeepmeep/status/1896264231122772069"
-  ]
+  ],
+  "links": [{
+    "type": "bitcoin",
+    "value": "bc1qx90z3ce9qz4p2pnt06gd0ytntl86qw4d6qv39k"
+  }, {
+    "title": "X",
+    "value": "https://x.com/cocktailpeanut"
+  }, {
+    "title": "Github",
+    "value": "https://github.com/cocktailpeanut"
+  }, {
+    "title": "Discord",
+    "value": "https://discord.gg/TQdNwadtE4"
+  }]
 }
