@@ -30,16 +30,28 @@
     "https://x.com/deepbeepmeep/status/1896264231122772069"
   ],
   "links": [{
-    "type": "bitcoin",
-    "value": "bc1qx90z3ce9qz4p2pnt06gd0ytntl86qw4d6qv39k"
+    "title": "deepbeepmeep (wrote the app)",
+    "links": [{
+      "title": "X",
+      "value": "https://x.com/deepbeepmeep"
+    }, {
+      "title": "Github",
+      "value": "https://github.com/deepbeepmeep"
+    }]
   }, {
-    "title": "X",
-    "value": "https://x.com/cocktailpeanut"
-  }, {
-    "title": "Github",
-    "value": "https://github.com/cocktailpeanut"
-  }, {
-    "title": "Discord",
-    "value": "https://discord.gg/TQdNwadtE4"
+    "title": "cocktailpeanut (wrote the launcher)",
+    "links": [{
+      "type": "bitcoin",
+      "value": "bc1qx90z3ce9qz4p2pnt06gd0ytntl86qw4d6qv39k"
+    }, {
+      "title": "X",
+      "value": "https://x.com/cocktailpeanut"
+    }, {
+      "title": "Github",
+      "value": "https://github.com/cocktailpeanut"
+    }, {
+      "title": "Discord",
+      "value": "https://discord.gg/TQdNwadtE4"
+    }]
   }]
 }
