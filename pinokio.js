@@ -57,6 +57,14 @@ module.exports = {
       } else {
         return [{
           icon: "fa-solid fa-power-off",
+          text: "<div>VACE</div>",
+          href: "start.js",
+          params: {
+            profile: 4,
+            mode: "--vace"
+          }
+        }, {
+          icon: "fa-solid fa-power-off",
           text: "<div>Text-to-Video</div>",
           menu: [{
             icon: "fa-solid fa-power-off",

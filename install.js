@@ -5,7 +5,7 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "git clone -b dev https://github.com/deepbeepmeep/Wan2GP app",
+          "git clone -b dev2 https://github.com/deepbeepmeep/Wan2GP app",
         ]
       }
     },
