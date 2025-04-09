@@ -13,7 +13,8 @@ module.exports = async (kernel) => {
           },
           path: "app",                // Edit this to customize the path to start the shell from
           message: [
-            "python wgp.py --multiple-images --profile {{args.profile}} {{args.mode ? args.mode : ''}} {{args.compile ? '--compile' : ''}} {{args.attention ? args.attention : ''}}",    // Edit with your custom commands
+            "pythn wgp.py --multiple-images {{args.compile ? '--compile' : ''}}"
+            //"python wgp.py --multiple-images --profile {{args.profile}} {{args.mode ? args.mode : ''}} {{args.compile ? '--compile' : ''}} {{args.attention ? args.attention : ''}}",    // Edit with your custom commands
             //"python gradio_server.py --multiple-images --profile {{args.profile}} {{args.mode ? args.mode : ''}} {{args.compile ? '--compile' : ''}} {{args.attention ? args.attention : ''}}",    // Edit with your custom commands
           ],
           on: [{
