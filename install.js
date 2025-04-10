@@ -2,6 +2,14 @@ module.exports = {
   run: [
     // Edit this step to customize the git repository to use
     {
+     when: "{{gpu !== 'nvidia'}}",
+     method: "notify",
+     params: {
+       html: "This app requires an NVIDIA GPU."
+     }, 
+      next: null
+    },
+    {
       method: "shell.run",
       params: {
         message: [
