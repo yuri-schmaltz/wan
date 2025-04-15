@@ -57,6 +57,64 @@ module.exports = {
       } else {
         return [{
           icon: "fa-solid fa-power-off",
+          text: "Start",
+          href: "start.js",
+        }, {
+          icon: "fa-solid fa-power-off",
+          text: "Advanced",
+          menu: [{
+            icon: "fa-solid fa-power-off",
+            text: "Compiled (Faster but may not work)",
+            href: "start.js",
+            params: {
+              compile: true
+            }
+          }]
+        }, {
+          icon: "fa-regular fa-folder-open",
+          text: "T2V Loras (save lora files here)",
+          href: "app/loras",
+          fs: true
+        }, {
+          icon: "fa-regular fa-folder-open",
+          text: "I2V Loras (save lora files here)",
+          href: "app/loras_i2v",
+          fs: true
+        }, {
+          icon: "fa-solid fa-plug",
+          text: "Update",
+          href: "update.js",
+        }, {
+          icon: "fa-solid fa-plug",
+          text: "Install",
+          href: "install.js",
+        }, {
+          icon: "fa-regular fa-circle-xmark",
+          text: "Reset",
+          href: "reset.js",
+        }]
+      }
+    } else {
+      return [{
+        default: true,
+        icon: "fa-solid fa-plug",
+        text: "Install",
+        href: "install.js",
+      }]
+    }
+  }
+}
+/*
+        return [{
+          icon: "fa-solid fa-power-off",
+          text: "<div>VACE</div>",
+          href: "start.js",
+          params: {
+            profile: 4,
+            mode: "--vace"
+          }
+        }, {
+          icon: "fa-solid fa-power-off",
           text: "<div>Text-to-Video</div>",
           menu: [{
             icon: "fa-solid fa-power-off",
@@ -302,3 +360,4 @@ module.exports = {
     }
   }
 }
+*/
