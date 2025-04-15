@@ -13,7 +13,7 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "git clone -b dev3 https://github.com/deepbeepmeep/Wan2GP app",
+          "git clone https://github.com/deepbeepmeep/Wan2GP app",
         ]
       }
     },
